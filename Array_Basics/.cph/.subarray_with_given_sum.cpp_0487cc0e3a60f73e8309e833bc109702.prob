@@ -1,0 +1,1 @@
+{"name":"Local: subarray_with_given_sum","url":"d:\\DSA_Sheet\\Array_Basics\\subarray_with_given_sum.cpp","tests":[{"id":1655017730434,"input":"1\n5 5\n1 2 4 6 5","output":"5 5"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\DSA_Sheet\\Array_Basics\\subarray_with_given_sum.cpp","group":"local","local":true}

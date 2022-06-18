@@ -1,0 +1,1 @@
+{"name":"Local: longest_pal_substring","url":"d:\\DSA_Sheet\\String_Basics\\longest_pal_substring.cpp","tests":[{"id":1655464165389,"input":"aaaabaaa","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\DSA_Sheet\\String_Basics\\longest_pal_substring.cpp","group":"local","local":true}
