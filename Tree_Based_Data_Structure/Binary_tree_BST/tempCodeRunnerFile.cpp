@@ -1,0 +1,1 @@
+root->right = new TreeNode(3);
