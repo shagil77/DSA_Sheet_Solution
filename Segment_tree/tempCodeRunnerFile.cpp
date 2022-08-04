@@ -1,0 +1,1 @@
+count[i]=calcCount(0,low,high,low,nums[i]-1);
