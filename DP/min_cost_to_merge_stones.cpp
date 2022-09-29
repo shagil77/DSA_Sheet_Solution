@@ -25,7 +25,6 @@ public:
                 }
             }
         }
-        
         return (dp[0][n-1]!=INT_MAX)?dp[0][n-1]:-1;
     }
 };
