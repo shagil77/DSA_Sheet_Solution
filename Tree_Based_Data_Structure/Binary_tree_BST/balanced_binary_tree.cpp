@@ -33,6 +33,37 @@ int isBalanced(TreeNode* A) {
     return 0;
 }
 
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+ * };
+ */
+class Solution {
+    int height(TreeNode* root) {
+        if(root == NULL) return 0;
+        
+        int left = height(root->left);
+        if(left == INT_MIN) return INT_MIN;
+        int right = height(root->right);
+        if(right == INT_MIN) return INT_MIN;
+        
+        if(abs(left-right)>1) return INT_MIN;
+        return (max(left, right)+1);
+    }
+public:
+    bool isBalanced(TreeNode* root) {
+        int h = height(root);
+        if(h == INT_MIN) return false;
+        return true;
+    }
+};
+
 int main()
 {
     TreeNode* root=new TreeNode(1);
