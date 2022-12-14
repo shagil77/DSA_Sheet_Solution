@@ -4,6 +4,6 @@ Detailed break-up of DSA questions solved across platforms:
 |:-------------------|--------:|-----------:|-----------:|-------:|------:|
 |Geeks - for - Geeks |	1      |	14      |	28       |	1	  | 44    |
 |Interviewbit	     |  0	   |    14	    |   20	     |  3	  | 37    |
-|Leetcode	         |  0	   |    37	    |   57	     |  25    |	119   |
+|Leetcode	         |  0	   |    39	    |   58	     |  25    |	122   |
 |                    |         |            |            |        |       |					
-|Grand Total	     |  1	   |    65	    |  105	     |  29	  | 200   |
+|Grand Total	     |  1	   |    67	    |  106	     |  29	  | 203   |
